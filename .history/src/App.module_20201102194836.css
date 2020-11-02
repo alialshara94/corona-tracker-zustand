@@ -1,0 +1,23 @@
+/* 
+#0f3057
+#00587a
+#008891
+#e7e7de
+*/
+.body{
+    background-color: #e7e7de;
+    color: #0f3057;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media(max-width){
+    .container{
+        margin: 0 10%;
+    }
+}
